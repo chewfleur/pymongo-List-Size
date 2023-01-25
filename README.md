@@ -12,11 +12,14 @@ and retrieve the size and numbers of databases, collections, documents and index
 2. Install PyMongo using pip: `pip install pymongo`
 
 ## Usage
-First, import the necessary libraries and establish a connection to the MongoDB database:
-```python
-from pymongo import MongoClient
+1. import the necessary libraries 
+2. establish a connection to the MongoDB database by changing for example this parameters in python script
 
-client = MongoClient('mongodb://localhost:27017/')
+```python
+clientURI = 'mongodb://localhost:27017/'
+username=''
+password=''
+...
 ```
 
 ## Additional Resources
