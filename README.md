@@ -13,7 +13,7 @@ and retrieve the size and numbers of databases, collections, documents and index
 
 ## Usage
 1. import the necessary libraries 
-2. establish a connection to the MongoDB database by changing for example this parameters in python script
+2. establish a connection to the MongoDB database by changing for example this parameters in [the python script](https://github.com/chewfleur/pymongo-List-Size/blob/a18e343d7681af51e61a816ab91c6721374534ef/getInfoPy.sh)
 
 ```python
 clientURI = 'mongodb://localhost:27017/'
