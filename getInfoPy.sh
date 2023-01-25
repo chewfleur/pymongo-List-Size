@@ -1,10 +1,7 @@
 #!/usr/bin/python3
 import pymongo
-import sys
-import json
 
-
-clientURI = "mongodb+srv://"
+clientURI = "mongodb://"
 
 try:
         client=pymongo.MongoClient(clientURI,
